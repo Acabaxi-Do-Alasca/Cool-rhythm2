@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #232323;
+}
+
+#parte-de-cima a{
+    color: #CECECE;
+    margin: 1.3vw;
+}
+
+#parte-de-cima div a:hover {
+    background-color: #FFFFFF;
+    padding: 13px 25px;
+    border-radius: 30px;
+    color: black;
+}
+
+#parte-de-cima{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #191919;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0;
+}
+
+main {
+    background-color: #232323;
+}
+
+menu {
+    position: fixed;
+    background-color: #020202;
+    top: 0px; left: 0px;
+    height: 100vh;
+    width: 272px;
+    z-index: 10;
+    margin: 0; padding: 0;
+}
+
+menu #logo{
+    text-align: center;
+}
+
+#ibb {
+    padding: 16px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#ibb p {
+    display: flex;
+} 
+
+
+#cm {
+    padding: 16px;
+}
+
+#pe {
+    padding: 16px;
+}
+
+menu a, menu p{
+    color: #FFFFFF;
+}
+
+#nada {
+    background-color: #393939;
+    height: 1px;
+    width: 240px;
+}
+
+#inicio, #busca, #biblioteca, .cmc, #dowload, #portugues {
+    display: flex;
+    align-items: center;
+}
+
+#musics p{
+    padding-top: 6px;
+}
+
+#dowload, #portugues {
+    margin-top: 33px;
+}
+
+#portugues p{
+    padding-left: 10px;
+}
+
+#portugues {
+    border: #FFFFFF solid 5px;
+    border-radius: 80px;
+}
+
+#portugues figure{
+    padding-left: 30px;
+}
+
+main {
+    height: calc(100% - 79px);
+    width: calc(100% - 272px);
+    margin-left: 272px;
+    margin-top: 57px;
+}
+
+#metal {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+}
+
+#metal .item{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding-top: 20px;
+}
+
+#navegar {
+    padding: 28px 28px 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px ;
+    color: white;
+}
+
+#form {
+    margin-right: 820px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#form form button, #form form input {
+    border: none;
+    border-radius: 20px;
+}
